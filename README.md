@@ -2,13 +2,14 @@
 
 This project is an AI-powered web app that automates the extraction of key information from scanned health insurance claim documents (PDFs). It uses **OCR** (Tesseract), **PDF parsing**, and **Streamlit** to convert scanned documents into structured data fields like patient name, diagnosis, hospital, amount claimed, etc.
 
-> 📌 Built as part of an internship assignment for PlanCover to demonstrate real-world application of AI in insurance claim processing.
+
 
 ---
 
 ## 🚀 Demo
 
-![App Screenshot](https://your-screenshot-link-if-any.png)
+![image](https://github.com/user-attachments/assets/04d5f747-19b7-4ae7-ab4d-45aab67e974c)
+
 
 ---
 
