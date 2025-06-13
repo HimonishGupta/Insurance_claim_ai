@@ -2,7 +2,6 @@
 
 This project is an AI-powered web app that automates the extraction of key information from scanned health insurance claim documents (PDFs). It uses **OCR**, **LLMs**, and a clean UI to streamline group health insurance claims processing.
 
-> 📌 Built as part of an internship assignment for **PlanCover** to demonstrate real-world application of AI in insurance claim operations.
 
 ---
 
