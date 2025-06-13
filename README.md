@@ -8,7 +8,8 @@ This project is an AI-powered web app that automates the extraction of key infor
 
 ## 🚀 Demo
 
-![image](https://github.com/user-attachments/assets/04d5f747-19b7-4ae7-ab4d-45aab67e974c)
+![image](https://github.com/user-attachments/assets/7e7c08ac-4fd5-446f-9d1a-61e1961d4034)
+
 
 
 ---
