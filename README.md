@@ -1,45 +1,45 @@
-# 🧾 AI-Powered Insurance Claim Document Parser
+#  AI-Powered Insurance Claim Document Parser
 
 This project is an AI-powered web app that automates the extraction of key information from scanned health insurance claim documents (PDFs). It uses **OCR**, **LLMs**, and a clean UI to streamline group health insurance claims processing.
 
 
 ---
 
-## 🔍 Problem: Slow and Manual Claims Processing for Group Health Insurance
+##  Problem: Slow and Manual Claims Processing for Group Health Insurance
 
 In group health insurance (used by companies to insure their employees), when employees file claims, the process is:
 
-- 🐢 **Manual and slow** — requiring multiple document uploads, back-and-forth communication  
-- ⚠️ **Error-prone** — due to incorrect or missing documents  
-- ⏳ **Time-consuming** for both HR teams and insurers  
-- 😤 **Frustrating for employees** — especially during medical emergencies
+-  **Manual and slow** — requiring multiple document uploads, back-and-forth communication  
+-  **Error-prone** — due to incorrect or missing documents  
+-  **Time-consuming** for both HR teams and insurers  
+-  **Frustrating for employees** — especially during medical emergencies
 
 This delays claims settlement, creates a poor customer experience, and puts pressure on both insurance operations and the employer’s HR team.
 
 ---
 
-## 🤖 AI Solution: Intelligent Claims Document Parser & Validator using LLMs
+##  AI Solution: Intelligent Claims Document Parser & Validator using LLMs
 
 This project proposes an **AI-based assistant** that helps insurers and HR teams process claims quickly and accurately.
 
-### ✅ What the AI Tool Will Do:
+###  What the AI Tool Will Do:
 
-- 📄 Parse medical bills, discharge summaries, and claim forms (PDFs, images, or scanned docs) using **OCR + LLM**
-- 🧠 Extract key fields:  
+-  Parse medical bills, discharge summaries, and claim forms (PDFs, images, or scanned docs) using **OCR + LLM**
+-  Extract key fields:  
    `Patient name, Hospital, Admission/Discharge dates, Diagnosis, Amount claimed, etc.`
-- ✅ Check policy compliance:
+-  Check policy compliance:
    - Is the disease covered?
    - Was the hospital in-network?
    - Are room rent limits exceeded?
-- 🔍 Validate completeness:
+-  Validate completeness:
    - Have all required documents been submitted?
    - Are scanned documents readable?
    - Are amounts consistent across bills?
-- 📋 Generate a **structured claim summary** for internal teams to quickly approve or flag for review
+-  Generate a **structured claim summary** for internal teams to quickly approve or flag for review
 
 ---
 
-## ✨ Tools/Tech Used
+##  Tools/Tech Used
 
 | Area           | Tools/Frameworks                              |
 |----------------|-----------------------------------------------|
