@@ -51,23 +51,23 @@ This project proposes an **AI-based assistant** that helps insurers and HR teams
 
 ---
 
-## 📈 Business Value
+##  Business Value
 
-- ⏱️ **Reduces claim processing time**  
-- ✅ **Improves accuracy and reduces fraud**  
-- 🤝 **Improves HR & employee experience**  
-- 📊 **Easily scalable across multiple clients**
+-  **Reduces claim processing time**  
+-  **Improves accuracy and reduces fraud**  
+-  **Improves HR & employee experience**  
+-  **Easily scalable across multiple clients**
 
 ---
 
-## 🚀 Demo
+##  Demo
 
 ![image](https://github.com/user-attachments/assets/e31d095d-d7b8-40e7-81b7-206665abf841)
 
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Tool           | Purpose                          |
 |----------------|----------------------------------|
