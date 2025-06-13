@@ -35,5 +35,5 @@ This project is an AI-powered web app that automates the extraction of key infor
 
 ---
 
-## 📂 Folder Structure
+
 
