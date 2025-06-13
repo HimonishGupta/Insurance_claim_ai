@@ -1,26 +1,70 @@
 # 🧾 AI-Powered Insurance Claim Document Parser
 
-This project is an AI-powered web app that automates the extraction of key information from scanned health insurance claim documents (PDFs). It uses **OCR** (Tesseract), **PDF parsing**, and **Streamlit** to convert scanned documents into structured data fields like patient name, diagnosis, hospital, amount claimed, etc.
+This project is an AI-powered web app that automates the extraction of key information from scanned health insurance claim documents (PDFs). It uses **OCR**, **LLMs**, and a clean UI to streamline group health insurance claims processing.
 
+> 📌 Built as part of an internship assignment for **PlanCover** to demonstrate real-world application of AI in insurance claim operations.
 
+---
+
+## 🔍 Problem: Slow and Manual Claims Processing for Group Health Insurance
+
+In group health insurance (used by companies to insure their employees), when employees file claims, the process is:
+
+- 🐢 **Manual and slow** — requiring multiple document uploads, back-and-forth communication  
+- ⚠️ **Error-prone** — due to incorrect or missing documents  
+- ⏳ **Time-consuming** for both HR teams and insurers  
+- 😤 **Frustrating for employees** — especially during medical emergencies
+
+This delays claims settlement, creates a poor customer experience, and puts pressure on both insurance operations and the employer’s HR team.
+
+---
+
+## 🤖 AI Solution: Intelligent Claims Document Parser & Validator using LLMs
+
+This project proposes an **AI-based assistant** that helps insurers and HR teams process claims quickly and accurately.
+
+### ✅ What the AI Tool Will Do:
+
+- 📄 Parse medical bills, discharge summaries, and claim forms (PDFs, images, or scanned docs) using **OCR + LLM**
+- 🧠 Extract key fields:  
+   `Patient name, Hospital, Admission/Discharge dates, Diagnosis, Amount claimed, etc.`
+- ✅ Check policy compliance:
+   - Is the disease covered?
+   - Was the hospital in-network?
+   - Are room rent limits exceeded?
+- 🔍 Validate completeness:
+   - Have all required documents been submitted?
+   - Are scanned documents readable?
+   - Are amounts consistent across bills?
+- 📋 Generate a **structured claim summary** for internal teams to quickly approve or flag for review
+
+---
+
+## ✨ Tools/Tech Used
+
+| Area           | Tools/Frameworks                              |
+|----------------|-----------------------------------------------|
+| OCR            | Tesseract, easyOCR                            |
+| NLP / LLM      | HuggingFace Transformers, LangChain           |
+| Web App        | Streamlit or Gradio                           |
+| Deployment     | FastAPI, Docker                               |
+| Data Simulation| Synthetic fake PDFs for testing               |
+
+---
+
+## 📈 Business Value
+
+- ⏱️ **Reduces claim processing time**  
+- ✅ **Improves accuracy and reduces fraud**  
+- 🤝 **Improves HR & employee experience**  
+- 📊 **Easily scalable across multiple clients**
 
 ---
 
 ## 🚀 Demo
 
-![image](https://github.com/user-attachments/assets/7e7c08ac-4fd5-446f-9d1a-61e1961d4034)
+![image](https://github.com/user-attachments/assets/e31d095d-d7b8-40e7-81b7-206665abf841)
 
-
-
----
-
-## 🔍 Features
-
-- 📤 Upload scanned insurance claim PDFs
-- 🧠 OCR-based text extraction using Tesseract
-- 📄 Auto-parsing of important claim fields
-- 📊 Clean UI built with Streamlit
-- 💡 Modular codebase (OCR logic, parsing logic, UI)
 
 ---
 
